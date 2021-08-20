@@ -32,6 +32,9 @@ So that you feel easy to use my code, I am giving my code below. Just `ctrl+C` a
             if (number % 2 == 0) {
                 document.write(number + " is even");
             }
+          	if (number == null){
+              document.write(number + " was null, enter a valid number")
+            }
             else {
                 document.write(number + " is odd");
             }
